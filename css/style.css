@@ -10,7 +10,7 @@ box-sizing: border-box;
 }
 
 nav{
-    margin: 0px;
+    margin: 0% -10%;
     padding: 0px;
     display: flex;
     justify-content: space-around;
@@ -36,13 +36,14 @@ nav{
 
 .nav-links li{
     list-style: none;
+    
 }
 
 .nav-links a{
     color: white;
     text-decoration: none;
     letter-spacing: 3px;
-    font-weight: bold;
+    font-weight: 100;
     font-size: 14px;
 
 }
@@ -69,8 +70,35 @@ padding-top: 0px;
 padding-bottom: 0px;
 text-align: center;
 margin: 0px;
+        position: relative;
     
 }
+
+.hero-word{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+    margin-left: 10%;
+}
+
+.hero-description{
+    text-align: left;
+    position: absolute;
+    top: 60%;
+    left: 0%;
+    transform: translate(0%, -50%);
+    margin-left: 10%;
+    
+}
+
+h3{
+    color: white;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+
 
 h1{
   font-size: 60px;
@@ -150,19 +178,13 @@ footer ul{
 
 h2{
   text-align: center;
+font-weight: 1000;
 }
 
 p{
   text-align: center;
 }
 
-.characteristics{
-  padding-top: 50px;
-}
-
-.about{
-  padding-top: 10px;
-}
 
 @media screen and (max-width: 768px){
     body{
