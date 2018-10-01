@@ -75,21 +75,25 @@ margin: 0px;
 }
 
 .hero-word{
-    position: absolute;
-    top: 50%;
-    left: 0%;
-    transform: translate(0%, -50%);
-    margin-left: 10%;
+    text-align: left;
+    
+    margin-left: 0%;
 }
 
 .hero-description{
     text-align: left;
-    position: absolute;
-    top: 60%;
-    left: 0%;
-    transform: translate(0%, -50%);
-    margin-left: 10%;
+
+  
+    margin-top: -20%;
     
+}
+
+.hero-text{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    padding-left:0%;
 }
 
 h3{
