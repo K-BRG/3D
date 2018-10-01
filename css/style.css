@@ -96,7 +96,7 @@ header img{max-width:100%; display:block;}
   padding: 0px 20px;
   padding-bottom: 50px;
   padding-top: 50px;
-  color: #4AE86B;
+  color: black;
 }
 
 
@@ -131,7 +131,7 @@ img.big-image{
 
 footer{
   padding: 40px 40px;
-  background-color: #4AE86B;
+  background-color: black;
 }
 
 footer ul{
@@ -147,7 +147,7 @@ footer ul li{
 }
 
 footer ul{
-  text-align: center;
+  text-align: right;
 }
 
 h2{
